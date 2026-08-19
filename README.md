@@ -10,11 +10,8 @@ To install the style for all projects, copy the style file to your user-level ou
 
 ```bash
 mkdir -p ~/.claude/output-styles
-curl -fsSL https://raw.githubusercontent.com/GITHUB_USER/claude-google-dev-style/main/google-dev-style.md \
-  -o ~/.claude/output-styles/google-dev-style.md
+curl -fsSL -o ~/.claude/output-styles/google-dev-style.md https://raw.githubusercontent.com/Collin128/claude-google-dev-style/main/google-dev-style.md
 ```
-
-Replace `GITHUB_USER` with the account that hosts this repository.
 
 To install the style for a single project, copy `google-dev-style.md` into that project's `.claude/output-styles/` directory instead.
 
